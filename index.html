@@ -26,7 +26,17 @@
         <ul class="navmenu">
             <li><a href="index.html">Página Inicial</a></li>
             <li><a href="#trending">Aulas</a></li>
-            <li><a href="#">Slides</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Slides</a>
+                <div class="dropdown-content">
+                  <a href="./ppts/Aula1_FrontEnd.pdf" target="_blank">PPT 1</a>
+                  <a href="./ppts/Aula2_FrontEnd.pdf" target="_blank">PPT 2</a>
+                  <a href="./ppts/Aula3_FrontEnd.pdf" target="_blank">PPT 3</a>
+                  <a href="./ppts/Aula4-DOMFuncções.pdf" target="_blank">PPT 4</a>
+                  <a href="./ppts/Aula6 - Arrays.pdf" target="_blank">PPT 6</a>
+                  <a href="./ppts/Aula7 - OrientacaoObjeto.pdf" target="_blank">PPT 7</a>
+                </div>
+              </li>
             <li><a href="./ppts/Calendário Escolar 1º e 2º Semestre 2024.pdf" target="_blank">Calendário</a></li>
             <li><a href="#contact"> Contato</a></li>
         </ul>
@@ -41,121 +51,120 @@
     <!-- começo main -->
     <main>
 
+        <!-- banner caseiro -->
+        <section class="main-home">
+            <div class="main-text">
+                <h5>Senai "Roberto Mange"</h5>
+                <h1>Front-End <br> Classes</h1>
+                <p>There's nothing like these classes :)</p>
+
+                <a href="#trending" class="main-btn">Check Now <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="down-arrow">
+                <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+            </div>
+        </section>
+
+        <!-- trending products section -->
+        <section class="trending-product" id="trending">
+            <div class="center-text">
+                <h2>Our <span>classes</span></h2>
+            </div>
+
+            <div class="products">
+                <div class="row">
+                    <a href="aulaUm.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>22/01/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>Revendo conceitos</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaDois.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>29/01/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>As 10 heurísticas de Nielsen</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaTres.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>05/02/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>O que é JavaScript?</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaQuatro.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>12/02/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>Laços de Repetição</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaCinco.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>19/02/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>DOM e Funções</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="#"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>26/02/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>Bingo</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaSeis.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>04/03/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>Arrays</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <a href="aulaSete.html"><img src="./images/jss.png" alt=""></a>
+                    <div class="product-text">
+                        <h5>11/03/2024</h5>
+                    </div>
+
+                    <div class="price">
+                        <p>Orientação a Objetos</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
     </main>
-    <!-- fim main -->
-
-    <!-- banner caseiro -->
-    <section class="main-home">
-        <div class="main-text">
-            <h5>Senai "Roberto Mange"</h5>
-            <h1>Front-End <br> Classes</h1>
-            <p>There's nothing like these classes ;)</p>
-
-            <a href="#trending" class="main-btn">Check Now <i class='bx bx-right-arrow-alt'></i></a>
-        </div>
-
-        <div class="down-arrow">
-            <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
-        </div>
-    </section>
-
-    <!-- trending products section -->
-    <section class="trending-product" id="trending">
-        <div class="center-text">
-            <h2>Our <span>classes</span></h2>
-        </div>
-
-        <div class="products">
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>22/01/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>Revendo conceitos</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>29/01/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>As 10 heurísticas de Nielsen</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>05/02/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>O que é JavaScript?</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>12/02/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>Laços de Repetição</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>19/02/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>DOM e Funções</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>26/02/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>Bingo + Exercícios</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>04/03/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>Arrays</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <a href="#"><img src="./images/jss.png" alt=""></a>
-                <div class="product-text">
-                    <h5>11/03/2024</h5>
-                </div>
-
-                <div class="price">
-                    <p>Orientação a Objetos</p>
-                </div>
-            </div>
-            
-        </div>
-    </section>
+<!-- fim main -->
 
     <script src="script/script.js"></script>
 
